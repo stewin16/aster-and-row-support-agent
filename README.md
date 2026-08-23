@@ -8,9 +8,13 @@
 
 ---
 
-## Demo Walkthrough & Interface
+## Video Walkthrough & Live Demo
 
-![Demo Walkthrough Video](assets/demo_recording.webp)
+[![Watch Demo Walkthrough on Loom](https://cdn.loom.com/sessions/thumbnails/3c9d2aabd4f04fa8bf074503c6966760-with-play.gif)](https://www.loom.com/share/3c9d2aabd4f04fa8bf074503c6966760)
+
+> **[▶ Click here to watch the full video walkthrough on Loom](https://www.loom.com/share/3c9d2aabd4f04fa8bf074503c6966760)**
+>
+> *Demonstrating knowledge-base grounded answers with citations, real-time sanitized order lookups, multi-turn conversation context, source conflict detection with human handoff, and the 23-benchmark evaluation suite running live.*
 
 <p align="center">
   <img src="assets/evals_modal_success.png" width="48%" alt="Evaluation Suite Modal" />
@@ -27,8 +31,8 @@
 
 ### 1. Clone the repository & enter the folder
 ```bash
-git clone <your-repo-link>
-cd <repo-folder>
+git clone https://github.com/stewin16/aster-and-row-support-agent.git
+cd aster-and-row-support-agent
 ```
 
 ### 2. Install dependencies
@@ -225,8 +229,7 @@ During development, we identified and resolved multiple failures across the syst
 ├── README.md                           # Comprehensive documentation & eval report
 ├── requirements.txt                    # Project dependencies
 ├── .env.example                        # Environment template
-├── assets/                             # Demo recording and screenshots
-│   ├── demo_recording.webp
+├── assets/                             # Demo screenshots
 │   ├── evals_modal_success.png
 │   ├── order_lookup_demo.png
 │   ├── source_conflict_demo.png
